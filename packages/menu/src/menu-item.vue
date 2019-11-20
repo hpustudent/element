@@ -74,9 +74,7 @@
           color: this.active ? this.activeTextColor : this.textColor
         };
         if (this.mode === 'horizontal' && !this.isNested) {
-          style.borderBottomColor = this.active
-            ? (this.rootMenu.activeTextColor ? this.activeTextColor : '')
-            : 'transparent';
+          style.borderBottomColor = 'transparent';
         }
         return style;
       },
