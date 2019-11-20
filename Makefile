@@ -1,6 +1,7 @@
 .PHONY: dist test
 default: help
 
+
 # build all theme
 build-theme:
 	npm run build:theme
