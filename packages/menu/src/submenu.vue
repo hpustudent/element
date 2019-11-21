@@ -125,9 +125,7 @@
           };
         }
         return {
-          borderBottomColor: this.active
-            ? (this.rootMenu.activeTextColor ? this.activeTextColor : '')
-            : 'transparent',
+          borderBottomColor: 'transparent',
           color: this.active
             ? this.activeTextColor
             : this.textColor
